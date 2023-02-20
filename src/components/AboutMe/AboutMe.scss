@@ -1,0 +1,108 @@
+.about-me-container{
+    background-color: #191919;
+    // width: 100%;
+    padding:7% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+}
+.about-me-image-container{
+    width: 100%;
+    // text-align: center;
+    margin: auto;
+}
+.about-me-right-container{
+    width: 90%;
+    padding-left: 15px;
+}
+.about-me-title{
+    color: white;
+    font-weight: bold;
+    font: 36px Poppins,sans-serif;
+}
+.about-me-para{
+    color: #c6c9d8bf;
+    font-weight: 1000;
+    font: 16px Poppins,sans-serif;
+    line-height: 30px;
+}
+// .tabs{
+//     // margin-top: 50px;
+//     color: white;
+// .ant-tabs-nav-wrap{
+//     // overflow: none;
+//     // display: flex;
+//     flex-wrap: wrap;
+// }
+
+.ant-tabs-tab-btn{
+    color: white;
+    font-size:18px;
+}
+// .ant-tabs-tab-btn-active{
+//     font-size: 20px;
+// }
+.ant-tabs-content-holder{
+    color: #c6c9d8bf;
+    font-size: 15px;
+    // opacity: 0.7;
+    h6{
+        font-size: 17px;
+    }
+}
+
+@media (min-width:"768px") and (max-width:"1024px"){
+    .about-me-right-container{
+        width: 100%;
+    }
+    .about-me-title{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .about-me-para{
+       font-size: 21px;
+       padding-right: 1%;
+       margin: 0%;
+    }
+}
+
+@media (min-width:"1024px"){
+    .about-me-image-container{
+        width: 35%;
+        margin: 0%;
+        height: 470px;
+        // justify-content: center;
+        margin: auto;
+    }
+    .about-me-right-container{
+        width: 65%;
+    }
+    .about-me-title{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .about-me-para{
+       font-size: 21px;
+       padding-right: 1%;
+       margin: 0%;
+    }
+    .ant-tabs-tab-btn{
+        color: white;
+        font-size: 20px;
+    }
+    // .ant-tabs-tab-btn-active{
+    //     font-size: 20px;
+    // }
+    .ant-tabs-tab .ant-tabs-tab-active{
+        color: red;
+
+    }
+    .ant-tabs-content-holder{
+        color: white;
+        font-size: 20px;
+        h6{
+            font-size: 22px;
+        }
+    }
+}
+

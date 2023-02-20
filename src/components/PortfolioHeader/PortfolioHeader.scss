@@ -1,0 +1,32 @@
+.portfolio-header-container{
+    background-color: rgb(70, 67, 67);
+    // background-color: transparent;
+    margin: 0%;
+    padding: 1%;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+}
+
+button.navbar-toggler.collapsed{
+    color: white;
+}
+.header-icon{
+    color: white;
+    margin: auto;
+    margin-right: 2%;
+}
+.portfolio-header-each-navlink{
+    // color: white;
+    font-size: 20px;
+    margin-right: 2%;
+}
+.offcanvas-header button{
+    // : #101010;
+    background-color: white;
+
+}
+#offcanvasNavbar-expand-lg{
+    background-color: #101010;
+    color: white;
+}

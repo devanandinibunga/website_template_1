@@ -1,0 +1,276 @@
+.projects-container{
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+    background: #191919;
+    padding-bottom:5%;
+}
+.projects-container-title{
+    font-size: 36px;
+    // margin-bottom: 7px;
+    margin: 0%;
+    color: white;
+    padding: 5% 0%;
+}
+.projects-container-para{
+    font-size: 18px;
+    // margin-bottom: 7px;
+    margin: 0%;
+    color: #c6c9d8bf;
+    padding: 3% 6%;
+}
+.projects-main-container{
+    padding:5% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.projects-inner-container{
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    // padding:5%;
+    padding-bottom: 12%;
+    margin-bottom: 10%;
+    color: #ffffff;
+    background-size: cover;
+    background-position: 50%;
+    height: 400px;
+    transition: transform .2s ease-in-out;
+    // background-color: #0a0a0a;
+    // height: 70vh;
+    // display: flex;
+    // flex-direction: column;
+    // align-items:center;
+    // justify-content: flex-end;
+    // position: relative;
+}
+.projects-inner-main-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+    padding:5%;
+    border-radius: 10px;
+}
+
+
+.projects-inner-container:hover{
+    transform:scale(1.06);
+    .projects-inner-main-container{
+        background-image:linear-gradient(90deg,rgba(225,35,25,0.8),rgba(239,9,99,0.8));
+    }
+}
+// .projects-item-image-container {
+//     width: 100%;
+//     display: inline-block;
+//     border: 1px solid white;
+//     overflow: hidden;
+// }
+
+// .projects-item-image {
+//     width: 100%;
+// }
+
+// .projects-item-content-container {
+//     // position: absolute;
+//   box-sizing: border-box;
+// //   display: flex;
+// //   flex-direction: column;
+// //   justify-content: center;
+//   padding: 30px;
+//   text-align: center;
+//   width: 100%;
+//   font-family: "Lato";
+//   color: white;
+//   font-size: 15px;
+//   line-height: 28px;
+// //   height: -webkit-fill-available;
+//     border: 1px solid red;
+// }
+
+// .projects-item-container:hover  {
+//     .projects-item-content-container{
+//         background-color: rgba(0, 0, 255, 0.379) !important;
+
+//     }
+//     .projects-item-image {
+//         transform: scale(1.1);
+//         transition: 0.2s ease;
+//     }
+// }
+// .image{
+//     height: -webkit-fill-available;
+//     width: 100%;
+// }
+// .project-inner-hover-container{
+//     // visibility: visible;
+//     display: block;
+// }
+
+.projects-inner-container-para{
+    font-size:16px;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins",sans-serif;
+    line-height: 25px;
+    // color: #f9004d;
+    // color: #8d8d8d;
+    // margin: auto;
+    // align-items: center;
+}
+.projects-inner-container-title{
+    font-size: 24px;
+    font-family: "Poppins",sans-serif;
+}
+.projects-inner-container-btn{
+    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    padding:5%;
+    border-radius: 5px;
+}
+.projects-container-bottom-btn{
+    width: 50%;
+    margin: auto;
+    background-color:#ef0963;
+    color: #ffffff;
+    padding: 5% 2%;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+// .projects-inner-container-initial{
+//     position: absolute;
+//     box-sizing: border-box;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 30px;
+//     text-align: center;
+//     width: 100%;
+//     font-family: "Lato";
+//     color: white;
+//     font-size: 15px;
+//     line-height: 28px;
+//     height: -webkit-fill-available;
+//     visibility: hidden;
+// }
+
+// .project-inner-hover-container {
+//     // position: absolute;
+//     height: -webkit-fill-available;
+// }
+
+// .projects-inner-container:hover{
+//     .project-inner-hover-container{
+//         display: none;
+//     }
+//     .projects-inner-container-initial{
+//         visibility: visible;
+//         background-color: #294dff63 !important;
+//     }
+    
+// }
+@media (min-width:"768px"){
+    .projects-inner-container{
+        width: 45%;
+        // background-image: none;
+        margin-bottom: 3%;
+        background-color: #191919;
+        margin-right: 2%;
+        height: 450px;
+    }
+    .projects-inner-container{
+        height: 450px;
+    }
+    .projects-inner-main-container{
+        height: 450px;
+        padding:10% 3%;
+        line-height: 40px;
+    }
+    .projects-inner-container-title{
+        font-size: 28px;
+    }
+    .projects-inner-container-para{
+        font-size: 20px;
+        padding: 0% 5%;
+    }
+    .projects-inner-container-btn{
+        border-radius: 30px;
+        padding:3% 6%;
+        width: 60%;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    .projects-container-bottom-btn{
+        width: 30%;
+        font-size: 20px;
+        padding: 3%;
+    }
+}
+
+@media (min-width:"1024px"){
+
+    .projects-container{
+        // padding: 0%;
+        width: 100%;
+    }
+    .projects-container-title{
+        font-size: 50px;
+        // margin-bottom: 7px;
+        margin: 0%;
+        color: white;
+        padding: 5% 0% 2% 0%;
+    }
+    .projects-container-para{
+        font-size: 18px;
+        // margin-bottom: 7px;
+        margin: 0%;
+        color: #c6c9d8bf;
+        padding: 1% 25%;
+    }
+    .projects-main-container{
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 8%;
+    }
+    .projects-inner-container{
+        width: 30%;
+        padding-bottom: 5%;
+        margin-right: 2%;
+        // margin: 0%;
+        height: 500px;
+    }
+    .projects-inner-main-container{
+        height: 500px;
+        padding:10% 3%;
+        line-height: 40px;
+    }
+    .projects-inner-container-title{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    .projects-inner-container-para{
+        font-size: 18px;
+        padding: 0% 5%;
+    }
+    .projects-inner-container-btn{
+        border-radius: 10px;
+        padding:1%;
+        width: 60%;
+        font-size: 15px;
+    }
+    .projects-container-bottom-btn{
+        width: 20%;
+        font-size: 25px;
+        padding: 1%;
+    }
+}

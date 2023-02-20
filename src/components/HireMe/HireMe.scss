@@ -1,0 +1,92 @@
+.hire-me-container{
+    width: 100%;
+    background-color: #191919;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.hire-me-image{
+    width: 90%;
+    padding: 3%; 
+    // margin: auto;
+}
+.hire-me-details-container{
+    text-align: left;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+.hire-me-title{
+    font:36px Poppins,sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+}
+.hire-me-para{
+    font:18px Poppins,sans-serif;
+    color: #c6c9d8bf;
+    font-weight: 500;
+    line-height: 30px;
+}
+.hire-me-span{
+    color: white;
+}
+.hire-me-input, .hire-me-textarea{
+    border: 2px solid #c6c9d8bf;
+    opacity: 0.6;
+    background-color: transparent;
+    width: 88%;
+    margin-bottom: 3%;
+    padding: 4%;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.hire-me-textarea{
+    padding:5% 4% 10% 4%;
+}
+.hire-me-btn{
+    width: 50%;
+    background-color:#ef0963;
+    color: #ffffff;
+    padding: 5% 2%;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+@media (min-width:768px){
+    .hire-me-btn{
+        width: 25%;
+        padding: 2%;
+        font-size: 18px;
+    }
+    .hire-me-title{
+        font-size: 40px;
+    }
+    .hire-me-para{
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .hire-me-input, .hire-me-textarea{
+        font-size: 17px;
+        padding: 2%;
+    }
+    .hire-me-textarea{
+        padding:3% 2% 7% 2%;
+    }
+}
+
+@media (min-width:'1024px'){
+    .hire-me-container{
+        margin: 0%;
+        display: flex;
+    }
+    .hire-me-image{
+        order: 2;
+        width: 45%;
+        margin: 0%;
+        padding: 5%;
+    }
+    .hire-me-details-container{
+        order: 1;
+        width: 45%;
+    }
+}
